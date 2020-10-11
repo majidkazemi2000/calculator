@@ -1,0 +1,72 @@
+/*
+    create by majidkazemi
+    github ==> www.github.com/majidkazemi2000
+ */
+
+*{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.contain{
+    position: fixed;top: 0;right: 0;bottom: 0;left: 0;background-color: black;overflow-y: scroll;
+}
+#calculator{
+    height: 590px;background-color: white;transition: all .2s ease-in-out;border-radius: 20px;
+}
+.git{
+    font-weight: bold;color: cornflowerblue;text-decoration: none;margin-top: -15px;border:solid 2px cornflowerblue;padding: 5px 10px;border-radius: 5px;transition: all .2s ease-in-out;
+}
+.git:hover{
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+}
+.license-text{
+    font-weight: bold;color: gray;margin-top: 15px;
+}
+.result-container{
+    height: 60px;background-color: lightgray;margin-top: 25px;border-radius: 20px;margin-bottom: 5px;
+}
+#text{
+    line-height: 60px;font-weight: bold;font-size: 20px;color: black;
+}
+.btn-container{
+    height: 65px;margin-top: 15px;padding: 0;
+}
+.btn-row{
+    height: 60px;margin-top: 2px;
+}
+.operation{
+    width: 60px;height: 60px;background-color: #ffc248;cursor: pointer;box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);border-radius: 50%;transition: all .2s ease-in-out;
+}
+.operation p{
+    line-height: 60px;color: black;font-size: 15px;font-weight: bold;
+}
+
+.number{
+    width: 60px;height: 60px;background-color: gray;border-radius: 50%;cursor: pointer;box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);transition: all .2s ease-in-out;
+}
+.number p{
+    line-height: 60px;color: black;font-size: 25px;font-weight: bold;
+}
+#zero{
+    width: 180px;
+    border-radius: 20px;
+}
+#division p,#minus p,#plus p,#result p,#clear p,#remaining p{
+    font-size: 25px;
+}
+#clear{
+    width: 180px;
+    border-radius: 20px;
+}
+.number:hover{
+    box-shadow: none;
+    transform: scale(1.1,1.1);
+}
+.operation:hover{
+    box-shadow: none;
+    transform: scale(1.1,1.1);
+}
